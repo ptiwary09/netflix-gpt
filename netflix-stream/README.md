@@ -2,6 +2,19 @@
 
 -Create React App
 -Configured TailwindCSS 
+-Header
+-Login Form
+-Sign up Form
+-Form Validation
+-useRef Hook
+-Firebase Setup
+-Deploying our app to production
+-Create SignUp user account
+-Implement Sign In user API
+-Created Redux Store with userSlice
+-Implemented SignOUT
+-Update Profile 
+- Fetch from TMDB Movies
 
 # Features 
   -Login/Sign Up
@@ -10,12 +23,11 @@
 
 -Browse(after authentication)
   -Header
-  
-  -Main Movie
+   -Main Movie
     -Tailer in Background
     -Tailer &Description
     -Movie Suggestion
-
+      -MovieLists 
     -NetflixGPT
      -Search Bar
      -Movie Suggestions
