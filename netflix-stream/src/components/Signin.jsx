@@ -7,6 +7,9 @@ import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
 import { USER_AVATAR } from "../utils/live"
+import { BG_URL } from '../utils/live';
+
+
  const Signin = () => {
   const [isSignInForm,setIsSignInForm] =useState(true);
   const [errorMessage,setErrorMessage]=useState(null);
@@ -92,7 +95,7 @@ import { USER_AVATAR } from "../utils/live"
      <Header />
      <div className="absolute"> 
      <img 
-     src="https://assets.nflxext.com/ffe/siteui/vlv3/a56dc29b-a0ec-4f6f-85fb-50df0680f80f/2f8ae902-8efe-49bb-9a91-51b6fcc8bf46/IN-en-20240617-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+     src={BG_URL}
      alt="background_logo" />
      </div>
      <form onSubmit ={(e) => e.preventDefault()}className=" w-3/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80">
